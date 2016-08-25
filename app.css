@@ -1,0 +1,102 @@
+/** The Simple Feed Viewer application styles should live here.
+ */
+html, body {
+    font: normal 100%/120% sans-serif;
+    background-color: #323232;
+    color: #fffae1;
+}
+
+a, a:hover, a:visited {
+	text-decoration: none;
+    color: #ece2c3;
+}
+
+h1 {
+	padding-left: 15px;
+	margin: 20px 0;
+}
+
+h2, h3 {
+	font-weight: normal;
+}
+
+/*---Menu Styles---*/
+#menu-box {
+	width: 75%;
+	min-width: 320px;
+	padding: 10px 0 10px;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 0px solid #000000;
+	margin: 20px auto 0;
+	background-color: #4b5f5f;
+}
+
+#menu-box a {
+	display: block;
+	padding: 5px 15px;
+	position: relative;
+	cursor: pointer;
+}
+
+#menu-box a:hover {
+	background-color: #617b7b;
+}
+
+#menu-box a:hover:after {
+	content: "\27A7";
+	display: block;
+	position: absolute;
+	bottom: 25px;
+	right: 8px;
+	font-size: 60px;
+	color: #4b5f5f;
+}
+
+/*---Feed Styles---*/
+#feed-box {
+	width: 75%;
+	min-width: 320px;
+	padding: 0;
+	margin: 20px auto;
+}
+
+#feedlist {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+#feedlist li {
+	padding: 7px;
+	margin-bottom: 10px;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 0px solid #000000;
+	background-color: #4b5f5f;
+}
+
+#feedlist li:hover {
+	background-color: #617b7b;
+	cursor: pointer;
+}
+
+.item-link {
+	display: block;
+}
+
+.item-title {
+		margin: 0px 7px 0 0;
+		padding: 5px;
+}
+
+.item-url {
+		margin: 0px 7px 0 0;
+		padding: 5px 0;
+		text-align: right;
+}
+
+
+

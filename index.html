@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+
+<!-- The Simple Feed Viewer application JavaScript should live here.
+ -->
+
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <title>Simple Feed Viewer</title>
+
+    <link href="app.css" type="text/css" rel="stylesheet">
+    
+</head>
+<body>
+    <div id="menu-box">
+    	<h1>Feeds:</h1>
+    	<nav>
+    		<a class="feedtitle" id="diggfeed" data-filter="digg">
+    			<h2 class="menu-item-title">Digg</h2>
+    		</a>
+    		<a class="feedtitle" id="editorfeed" data-filter="david_picks">
+    			<h2 class="menu-item-title">Editor's Picks</h2>
+    		</a>
+    		<a class="feedtitle" id="politicalfeed" data-filter="politics">
+    			<h2 class="menu-item-title">Political</h2>
+    		</a>
+    		<a class="feedtitle" id="designfeed" data-filter="design">
+    			<h2 class="menu-item-title">Design</h2>
+    		</a>
+    	</nav>
+    </div>
+
+    <div id="feed-box">
+    	<ul id="feedlist">
+    	</ul>
+    </div>
+
+
+    <script src="util.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
